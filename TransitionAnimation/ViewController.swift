@@ -44,14 +44,14 @@ class ButtonViewController: UIViewController {
     }
 
     @objc func nativePush() {
-        guard let navController = navigationController as? AnimatedNavigationController else { return }
+        let navController = navigationController as! AnimatedNavigationController
         let buttonvc = ButtonViewController(number: number + 1)
         navController.pushViewController(buttonvc, animated: true)
 
     }
 
     @objc func customPush() {
-        guard let navController = navigationController as? AnimatedNavigationController else { return }
+        let navController = navigationController as! AnimatedNavigationController
         let buttonvc = ButtonViewController(number: number + 1)
         navController.pushViewController(buttonvc, using: .fade)
     }
