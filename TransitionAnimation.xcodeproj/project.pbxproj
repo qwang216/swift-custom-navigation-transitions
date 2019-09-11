@@ -14,6 +14,8 @@
 		2C7B421B2327ED1C00ED4C27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C7B42192327ED1C00ED4C27 /* LaunchScreen.storyboard */; };
 		2C7B42262327ED1C00ED4C27 /* TransitionAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7B42252327ED1C00ED4C27 /* TransitionAnimationTests.swift */; };
 		2C7B42312327ED1C00ED4C27 /* TransitionAnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7B42302327ED1C00ED4C27 /* TransitionAnimationUITests.swift */; };
+		2C7B4241232950E200ED4C27 /* FadeAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7B4240232950E200ED4C27 /* FadeAnimator.swift */; };
+		2C7B4243232950EB00ED4C27 /* AnimatedNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7B4242232950EB00ED4C27 /* AnimatedNavigationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		2C7B422C2327ED1C00ED4C27 /* TransitionAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransitionAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C7B42302327ED1C00ED4C27 /* TransitionAnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionAnimationUITests.swift; sourceTree = "<group>"; };
 		2C7B42322327ED1C00ED4C27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C7B4240232950E200ED4C27 /* FadeAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FadeAnimator.swift; sourceTree = "<group>"; };
+		2C7B4242232950EB00ED4C27 /* AnimatedNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedNavigationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				2C7B42102327ED1A00ED4C27 /* AppDelegate.swift */,
 				2C7B42122327ED1A00ED4C27 /* ViewController.swift */,
+				2C7B4240232950E200ED4C27 /* FadeAnimator.swift */,
+				2C7B4242232950EB00ED4C27 /* AnimatedNavigationController.swift */,
 				2C7B42142327ED1A00ED4C27 /* Main.storyboard */,
 				2C7B42172327ED1C00ED4C27 /* Assets.xcassets */,
 				2C7B42192327ED1C00ED4C27 /* LaunchScreen.storyboard */,
@@ -256,6 +262,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C7B4243232950EB00ED4C27 /* AnimatedNavigationController.swift in Sources */,
+				2C7B4241232950E200ED4C27 /* FadeAnimator.swift in Sources */,
 				2C7B42132327ED1A00ED4C27 /* ViewController.swift in Sources */,
 				2C7B42112327ED1A00ED4C27 /* AppDelegate.swift in Sources */,
 			);
